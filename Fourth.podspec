@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                         a part for IOSFrame demo
                    DESC
 
   s.homepage     = "https://github.com/AnChangSu/Fourth"
@@ -52,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "" => "ac1986.love@163.com" }
+  s.author             = { "ac" => "ac1986.love@163.com" }
   # Or just: s.author    = ""
   # s.authors            = { "" => "ac1986.love@163.com" }
   # s.social_media_url   = "http://twitter.com/"
@@ -91,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Fourth/Fourth/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
+  #  s.exclude_files = "Fourth/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
