@@ -16,6 +16,7 @@
 		B12E2FF11F3D520000F01F92 /* FourthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E2FF01F3D520000F01F92 /* FourthTests.m */; };
 		B12E2FFC1F3D520000F01F92 /* FourthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E2FFB1F3D520000F01F92 /* FourthUITests.m */; };
 		B12E300E1F3D526100F01F92 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E300D1F3D526100F01F92 /* FourthViewController.m */; };
+		B12E30141F3D570600F01F92 /* Fourth.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E30131F3D570600F01F92 /* Fourth.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B12E2FFD1F3D520000F01F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12E300C1F3D526100F01F92 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourthViewController.h; path = Fourth/FourthViewController.h; sourceTree = "<group>"; };
 		B12E300D1F3D526100F01F92 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourthViewController.m; path = Fourth/FourthViewController.m; sourceTree = "<group>"; };
+		B12E30131F3D570600F01F92 /* Fourth.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fourth.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				B12E2FDD1F3D51FF00F01F92 /* ViewController.m */,
 				B12E300C1F3D526100F01F92 /* FourthViewController.h */,
 				B12E300D1F3D526100F01F92 /* FourthViewController.m */,
+				B12E30131F3D570600F01F92 /* Fourth.podspec */,
 				B12E2FDF1F3D51FF00F01F92 /* Main.storyboard */,
 				B12E2FE21F3D51FF00F01F92 /* Assets.xcassets */,
 				B12E2FE41F3D51FF00F01F92 /* LaunchScreen.storyboard */,
@@ -253,6 +256,7 @@
 			files = (
 				B12E2FE61F3D520000F01F92 /* LaunchScreen.storyboard in Resources */,
 				B12E2FE31F3D51FF00F01F92 /* Assets.xcassets in Resources */,
+				B12E30141F3D570600F01F92 /* Fourth.podspec in Resources */,
 				B12E2FE11F3D51FF00F01F92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +519,7 @@
 				B12E30021F3D520000F01F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B12E30031F3D520000F01F92 /* Build configuration list for PBXNativeTarget "FourthTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				B12E30051F3D520000F01F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B12E30061F3D520000F01F92 /* Build configuration list for PBXNativeTarget "FourthUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				B12E30081F3D520000F01F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
