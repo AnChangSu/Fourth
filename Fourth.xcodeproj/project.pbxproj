@@ -65,7 +65,6 @@
 		B12E30191F3D98EF00F01F92 /* Connector_Fourth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connector_Fourth.h; path = Fourth/Connector_Fourth.h; sourceTree = "<group>"; };
 		B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connector_Fourth.m; path = Fourth/Connector_Fourth.m; sourceTree = "<group>"; };
 		B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CRProtocolManager.podspec; path = "../../../../../Downloads/CRProtocolManager-master/CRProtocolManager.podspec"; sourceTree = "<group>"; };
-		B12E30301F3DA4C300F01F92 /* RouterURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterURLInfo.h; sourceTree = "<group>"; };
 		B12E30321F3DA67600F01F92 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
 		B12E30331F3DA67600F01F92 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
 		B12E30341F3DA67600F01F92 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		B12E30381F3DA67600F01F92 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
 		B12E30391F3DA67600F01F92 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
 		B12E303A1F3DA67600F01F92 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
+		B12E303F1F3DAA1000F01F92 /* RouterURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RouterURLInfo.h; path = Fourth/RouterURLInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 				B12E30311F3DA67600F01F92 /* LDBusMediator */,
 				B12E2FD91F3D51FF00F01F92 /* AppDelegate.h */,
 				B12E2FDA1F3D51FF00F01F92 /* AppDelegate.m */,
-				B12E30301F3DA4C300F01F92 /* RouterURLInfo.h */,
+				B12E303F1F3DAA1000F01F92 /* RouterURLInfo.h */,
 				B12E2FDC1F3D51FF00F01F92 /* ViewController.h */,
 				B12E2FDD1F3D51FF00F01F92 /* ViewController.m */,
 				B12E300C1F3D526100F01F92 /* FourthViewController.h */,
