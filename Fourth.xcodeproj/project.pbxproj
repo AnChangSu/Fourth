@@ -19,10 +19,10 @@
 		B12E30141F3D570600F01F92 /* Fourth.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E30131F3D570600F01F92 /* Fourth.podspec */; };
 		B12E301B1F3D98EF00F01F92 /* Connector_Fourth.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */; };
 		B12E301F1F3D9D9600F01F92 /* CRProtocolManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */; };
-		B12E302C1F3DA4B000F01F92 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30251F3DA4B000F01F92 /* LDBusMediator.m */; };
-		B12E302D1F3DA4B000F01F92 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30271F3DA4B000F01F92 /* LDBusMediatorTipViewController.m */; };
-		B12E302E1F3DA4B000F01F92 /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30291F3DA4B000F01F92 /* LDBusNavigator.m */; };
-		B12E302F1F3DA4B000F01F92 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E302B1F3DA4B000F01F92 /* UIViewController+NavigationTip.m */; };
+		B12E303B1F3DA67600F01F92 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30341F3DA67600F01F92 /* LDBusMediator.m */; };
+		B12E303C1F3DA67600F01F92 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30361F3DA67600F01F92 /* LDBusMediatorTipViewController.m */; };
+		B12E303D1F3DA67600F01F92 /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E30381F3DA67600F01F92 /* LDBusNavigator.m */; };
+		B12E303E1F3DA67600F01F92 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E303A1F3DA67600F01F92 /* UIViewController+NavigationTip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,16 +65,16 @@
 		B12E30191F3D98EF00F01F92 /* Connector_Fourth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connector_Fourth.h; path = Fourth/Connector_Fourth.h; sourceTree = "<group>"; };
 		B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connector_Fourth.m; path = Fourth/Connector_Fourth.m; sourceTree = "<group>"; };
 		B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CRProtocolManager.podspec; path = "../../../../../Downloads/CRProtocolManager-master/CRProtocolManager.podspec"; sourceTree = "<group>"; };
-		B12E30231F3DA4B000F01F92 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
-		B12E30241F3DA4B000F01F92 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
-		B12E30251F3DA4B000F01F92 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
-		B12E30261F3DA4B000F01F92 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
-		B12E30271F3DA4B000F01F92 /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
-		B12E30281F3DA4B000F01F92 /* LDBusNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
-		B12E30291F3DA4B000F01F92 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
-		B12E302A1F3DA4B000F01F92 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
-		B12E302B1F3DA4B000F01F92 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 		B12E30301F3DA4C300F01F92 /* RouterURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterURLInfo.h; sourceTree = "<group>"; };
+		B12E30321F3DA67600F01F92 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
+		B12E30331F3DA67600F01F92 /* LDBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
+		B12E30341F3DA67600F01F92 /* LDBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
+		B12E30351F3DA67600F01F92 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
+		B12E30361F3DA67600F01F92 /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
+		B12E30371F3DA67600F01F92 /* LDBusNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
+		B12E30381F3DA67600F01F92 /* LDBusNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
+		B12E30391F3DA67600F01F92 /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
+		B12E303A1F3DA67600F01F92 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		B12E2FD51F3D51FF00F01F92 /* Fourth */ = {
 			isa = PBXGroup;
 			children = (
-				B12E30221F3DA4B000F01F92 /* LDBusMediator */,
+				B12E30311F3DA67600F01F92 /* LDBusMediator */,
 				B12E2FD91F3D51FF00F01F92 /* AppDelegate.h */,
 				B12E2FDA1F3D51FF00F01F92 /* AppDelegate.m */,
 				B12E30301F3DA4C300F01F92 /* RouterURLInfo.h */,
@@ -172,20 +172,21 @@
 			path = FourthUITests;
 			sourceTree = "<group>";
 		};
-		B12E30221F3DA4B000F01F92 /* LDBusMediator */ = {
+		B12E30311F3DA67600F01F92 /* LDBusMediator */ = {
 			isa = PBXGroup;
 			children = (
-				B12E30231F3DA4B000F01F92 /* LDBusConnectorPrt.h */,
-				B12E30241F3DA4B000F01F92 /* LDBusMediator.h */,
-				B12E30251F3DA4B000F01F92 /* LDBusMediator.m */,
-				B12E30261F3DA4B000F01F92 /* LDBusMediatorTipViewController.h */,
-				B12E30271F3DA4B000F01F92 /* LDBusMediatorTipViewController.m */,
-				B12E30281F3DA4B000F01F92 /* LDBusNavigator.h */,
-				B12E30291F3DA4B000F01F92 /* LDBusNavigator.m */,
-				B12E302A1F3DA4B000F01F92 /* UIViewController+NavigationTip.h */,
-				B12E302B1F3DA4B000F01F92 /* UIViewController+NavigationTip.m */,
+				B12E30321F3DA67600F01F92 /* LDBusConnectorPrt.h */,
+				B12E30331F3DA67600F01F92 /* LDBusMediator.h */,
+				B12E30341F3DA67600F01F92 /* LDBusMediator.m */,
+				B12E30351F3DA67600F01F92 /* LDBusMediatorTipViewController.h */,
+				B12E30361F3DA67600F01F92 /* LDBusMediatorTipViewController.m */,
+				B12E30371F3DA67600F01F92 /* LDBusNavigator.h */,
+				B12E30381F3DA67600F01F92 /* LDBusNavigator.m */,
+				B12E30391F3DA67600F01F92 /* UIViewController+NavigationTip.h */,
+				B12E303A1F3DA67600F01F92 /* UIViewController+NavigationTip.m */,
 			);
-			path = LDBusMediator;
+			name = LDBusMediator;
+			path = Fourth/LDBusMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,13 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12E302E1F3DA4B000F01F92 /* LDBusNavigator.m in Sources */,
-				B12E302D1F3DA4B000F01F92 /* LDBusMediatorTipViewController.m in Sources */,
+				B12E303D1F3DA67600F01F92 /* LDBusNavigator.m in Sources */,
+				B12E303C1F3DA67600F01F92 /* LDBusMediatorTipViewController.m in Sources */,
 				B12E300E1F3D526100F01F92 /* FourthViewController.m in Sources */,
-				B12E302F1F3DA4B000F01F92 /* UIViewController+NavigationTip.m in Sources */,
+				B12E303E1F3DA67600F01F92 /* UIViewController+NavigationTip.m in Sources */,
 				B12E2FDE1F3D51FF00F01F92 /* ViewController.m in Sources */,
 				B12E301B1F3D98EF00F01F92 /* Connector_Fourth.m in Sources */,
-				B12E302C1F3DA4B000F01F92 /* LDBusMediator.m in Sources */,
+				B12E303B1F3DA67600F01F92 /* LDBusMediator.m in Sources */,
 				B12E2FDB1F3D51FF00F01F92 /* AppDelegate.m in Sources */,
 				B12E2FD81F3D51FF00F01F92 /* main.m in Sources */,
 			);
