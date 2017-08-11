@@ -18,6 +18,7 @@
 		B12E300E1F3D526100F01F92 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E300D1F3D526100F01F92 /* FourthViewController.m */; };
 		B12E30141F3D570600F01F92 /* Fourth.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E30131F3D570600F01F92 /* Fourth.podspec */; };
 		B12E301B1F3D98EF00F01F92 /* Connector_Fourth.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */; };
+		B12E301F1F3D9D9600F01F92 /* CRProtocolManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B12E30131F3D570600F01F92 /* Fourth.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fourth.podspec; sourceTree = SOURCE_ROOT; };
 		B12E30191F3D98EF00F01F92 /* Connector_Fourth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connector_Fourth.h; path = Fourth/Connector_Fourth.h; sourceTree = "<group>"; };
 		B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connector_Fourth.m; path = Fourth/Connector_Fourth.m; sourceTree = "<group>"; };
+		B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CRProtocolManager.podspec; path = "../../../../../Downloads/CRProtocolManager-master/CRProtocolManager.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				B12E300C1F3D526100F01F92 /* FourthViewController.h */,
 				B12E300D1F3D526100F01F92 /* FourthViewController.m */,
 				B12E30191F3D98EF00F01F92 /* Connector_Fourth.h */,
+				B12E301E1F3D9D9600F01F92 /* CRProtocolManager.podspec */,
 				B12E301A1F3D98EF00F01F92 /* Connector_Fourth.m */,
 				B12E30131F3D570600F01F92 /* Fourth.podspec */,
 				B12E2FDF1F3D51FF00F01F92 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12E301F1F3D9D9600F01F92 /* CRProtocolManager.podspec in Resources */,
 				B12E2FE61F3D520000F01F92 /* LaunchScreen.storyboard in Resources */,
 				B12E2FE31F3D51FF00F01F92 /* Assets.xcassets in Resources */,
 				B12E30141F3D570600F01F92 /* Fourth.podspec in Resources */,
