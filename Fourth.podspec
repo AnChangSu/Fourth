@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Fourth"
-  s.version      = "0.0.3"
+  s.version      = "0.0.8"
   s.summary      = "Fourth."
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = "Foundation","UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

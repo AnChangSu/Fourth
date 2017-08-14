@@ -66,6 +66,7 @@ static NSMutableDictionary<NSString *, id<LDBusConnectorPrt>> *g_connectorMap = 
 //add anchang
 +(BOOL)routeToWebWithURL:(NSURL*)URL withParameters:(nullable NSDictionary *)params
 {
+    [self routeURL:@"First_Detail"];
 //    FirstDetailViewController *controller = [[FirstDetailViewController alloc] init];
 //    controller.startPage = URL.absoluteString;
 //    [[LDBusNavigator navigator] hookShowURLController:controller baseViewController:params[kLDRouteViewControllerKey] routeMode:params[kLDRouteModeKey]?[params[kLDRouteModeKey] intValue]:NavigationModePush];
