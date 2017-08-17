@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18EF73711F45D07100526A70 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18EF73701F45D07100526A70 /* Podfile */; };
+		18EF73731F45D52200526A70 /* libBus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF73721F45D52200526A70 /* libBus.a */; };
+		18EF73751F45D52600526A70 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF73741F45D52600526A70 /* libAFNetworking.a */; };
+		18EF73771F45D52A00526A70 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF73761F45D52A00526A70 /* libCordova.a */; };
 		7140198177BB477EA0567DB5 /* libPods-Fourth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05921D3452CAA70E19607A6B /* libPods-Fourth.a */; };
 		B12E2FD81F3D51FF00F01F92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E2FD71F3D51FF00F01F92 /* main.m */; };
 		B12E2FDB1F3D51FF00F01F92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E2FDA1F3D51FF00F01F92 /* AppDelegate.m */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		05921D3452CAA70E19607A6B /* libPods-Fourth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fourth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF73701F45D07100526A70 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		18EF73721F45D52200526A70 /* libBus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBus.a; path = "Pods/../build/Debug-iphoneos/Bus/libBus.a"; sourceTree = "<group>"; };
+		18EF73741F45D52600526A70 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		18EF73761F45D52A00526A70 /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCordova.a; path = "Pods/../build/Debug-iphoneos/Cordova/libCordova.a"; sourceTree = "<group>"; };
 		2CCB4754963DCDE9D35151EB /* Pods-Fourth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fourth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fourth/Pods-Fourth.release.xcconfig"; sourceTree = "<group>"; };
 		B12E2FD31F3D51FF00F01F92 /* Fourth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fourth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12E2FD71F3D51FF00F01F92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF73771F45D52A00526A70 /* libCordova.a in Frameworks */,
+				18EF73751F45D52600526A70 /* libAFNetworking.a in Frameworks */,
+				18EF73731F45D52200526A70 /* libBus.a in Frameworks */,
 				7140198177BB477EA0567DB5 /* libPods-Fourth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +186,9 @@
 		B2F6CF5D02D0E169117F4E94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18EF73761F45D52A00526A70 /* libCordova.a */,
+				18EF73741F45D52600526A70 /* libAFNetworking.a */,
+				18EF73721F45D52200526A70 /* libBus.a */,
 				05921D3452CAA70E19607A6B /* libPods-Fourth.a */,
 			);
 			name = Frameworks;
@@ -526,6 +538,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fourth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bus",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Cordova",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.Fourth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -538,6 +556,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fourth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Bus",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Cordova",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.Fourth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
