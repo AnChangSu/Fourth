@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Fourth"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "Fourth."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-   s.platform     = :ios, "5.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -133,6 +133,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+   s.dependency "Bus"
+   s.dependency "AFNetworking"
 
 end
